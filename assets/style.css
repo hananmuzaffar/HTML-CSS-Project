@@ -1,0 +1,82 @@
+body {
+  height: 625px;
+  background-color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  height: 90%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 10px 25px -8px #fff;
+  background: url("/assets/media/images/background2.jpg") no-repeat center center/cover;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.left-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-section img {
+  width: 90px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s;
+
+}
+.menu-link:hover {
+  color: rgba(155, 153, 153, 0.7);
+}
+
+.right-section {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 100px;
+
+}
+
+.search {
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  padding: 3px 10px;
+  margin-right: 10px;
+}
+.search::placeholder {
+  color: #fff;
+}
+
+.user {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+}
